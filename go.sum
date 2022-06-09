@@ -203,8 +203,8 @@ github.com/onsi/ginkgo v1.14.0/go.mod h1:iSB4RoI2tjJc9BBv4NKIKWKya62Rps+oPG/Lv9k
 github.com/onsi/gomega v0.0.0-20170829124025-dcabb60a477c/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5uiA=
 github.com/onsi/gomega v1.7.1/go.mod h1:XdKZgCCFLUoM/7CFJVPcG8C1xQ1AJ0vpAezJrB7JYyY=
 github.com/onsi/gomega v1.10.1/go.mod h1:iN09h71vgCQne3DLsj+A5owkum+a2tYe+TOCB1ybHNo=
-github.com/opensourceways/community-robot-lib v0.0.0-20220608105330-4ec6c905dd53 h1:A6IiSNC4XtBG+pcObbPHMZIi5h3m9Y0FV4QQSuiNN/w=
-github.com/opensourceways/community-robot-lib v0.0.0-20220608105330-4ec6c905dd53/go.mod h1:wT9QdrYZtQRSh7YWE7lz8f3YrxImm5XFZjDYQ2mRLeY=
+github.com/opensourceways/community-robot-lib v0.0.0-20220609031624-6094df296a41 h1:UzNuYbgtGpZ4rL9+m6+pSQLQLT8DDDlHwdT21Nms7KA=
+github.com/opensourceways/community-robot-lib v0.0.0-20220609031624-6094df296a41/go.mod h1:wT9QdrYZtQRSh7YWE7lz8f3YrxImm5XFZjDYQ2mRLeY=
 github.com/opensourceways/go-gitee v0.0.0-20220331060602-b86c6d95a2a8/go.mod h1:yvVsEMhp7frMblzN1sco4C7cRlnlpqkkn3O2JQNdRu0=
 github.com/pierrec/lz4 v2.6.1+incompatible/go.mod h1:pdkljMzZIN41W+lC3N2tnIh5sFi+IEE17M5jbnwPHcY=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

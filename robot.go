@@ -68,7 +68,7 @@ func (bot *robot) handlePREvent(e *sdk.PullRequestEvent, c config.Config, log *l
 	}
 
 	v := e.GetAction()
-	if v != gc.PRActionOpened && v != gc.PRActionChangedSourceBranch {
+	if !gc.IsPROpened(v) && !gc.IsPRSourceBranchChanged(v) {
 		return nil
 	}
 
@@ -86,7 +86,7 @@ func (bot *robot) handlePREvent(e *sdk.PullRequestEvent, c config.Config, log *l
 }
 
 func (bot *robot) handleNoteEvent(e *sdk.IssueCommentEvent, c config.Config, log *logrus.Entry) error {
-	if !gc.IsIssueCommentCreated(e.GetAction()) || !e.GetIssue().IsPullRequest() {
+	if !gc.IsCommentCreated(e) || !gc.IsCommentOnPullRequest(e) {
 		return nil
 	}
 
